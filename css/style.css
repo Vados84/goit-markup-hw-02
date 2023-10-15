@@ -16,6 +16,11 @@ body {
   color: currentColor;
 }
 
+.link-hover:hover,
+.link-hover:focus {
+  background-color: #404BBF;
+}
+
 .list {
   list-style-type: none;
 }
@@ -60,6 +65,7 @@ color: #2E2F42;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #FFFFFF;
 }
 
@@ -77,6 +83,7 @@ color: #2E2F42;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
   }
 
   .feature-list-title-text {
@@ -100,6 +107,7 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
+    color: #2e2f42;
 }
 
 .our-team-title-card {
@@ -107,6 +115,7 @@ color: #2E2F42;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    color: #2e2f42;
   }
 
   .our-team-text-card {
@@ -122,6 +131,7 @@ color: #2E2F42;
       letter-spacing: 0.02em;
       text-transform: capitalize;
       text-align: center;
+      color: #2e2f42;
   }
 
   .portfolio-title-card {
@@ -129,6 +139,7 @@ color: #2E2F42;
       font-size: 20px;
       line-height: 1.2;
       letter-spacing: 0.02em;
+      color: #2e2f42;
   }
 
 .portfolio-text-card {
