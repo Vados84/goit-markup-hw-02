@@ -6,8 +6,8 @@ button {
   }
 
 body {
-  font-family: 'Roboto', 'Raleway', sans-serif;
-  color: #2E2F42;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
   background-color: #FFFFFF;
 }
 
@@ -21,7 +21,7 @@ body {
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -90,11 +90,16 @@ color: #2E2F42;
   background-color: #F4F4FD;
   }
 
+.card {
+  background-color: #FFFFFF;
+}
+
 .our-team-title {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
 }
 
 .our-team-title-card {
@@ -116,6 +121,7 @@ color: #2E2F42;
       line-height: 1.11;
       letter-spacing: 0.02em;
       text-transform: capitalize;
+      text-align: center;
   }
 
   .portfolio-title-card {
