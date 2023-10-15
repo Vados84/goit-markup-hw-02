@@ -16,10 +16,7 @@ body {
   color: currentColor;
 }
 
-.link-hover:hover,
-.link-hover:focus {
-  background-color: #404BBF;
-}
+
 
 .list {
   list-style-type: none;
@@ -44,7 +41,16 @@ color: #2E2F42;
 }
 
 .nav-list-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2E2F42;
+}
 
+.nav-hover:hover,
+.nav-hover:focus {
+  color: #404bbf;
 }
 
 .header-addres {
@@ -55,6 +61,11 @@ color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.addres-hover:hover,
+.addres-hover:focus {
+  color: #404bbf;
 }
 
 .hero {
@@ -76,6 +87,11 @@ color: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+  }
+
+.link-hover:hover,
+.link-hover:focus {
+    background-color: #404BBF;
   }
 
 .feature-list-title {
